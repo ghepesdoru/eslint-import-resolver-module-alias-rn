@@ -1,0 +1,12 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+    "istanbul",
+    ["module-alias-rn", {
+      "react": true,
+      "map": [
+        { "src": "./test/mock", "expose": "mocks" }
+      ]
+    }]
+  ]
+}
