@@ -1,6 +1,6 @@
 {
   "name": "eslint-import-resolver-module-alias-rn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "description": "Eslint support for babel plugin to rewrite the path in require() and ES6 import",
   "repository": {
